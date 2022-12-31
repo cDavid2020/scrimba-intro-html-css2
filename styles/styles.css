@@ -1,0 +1,54 @@
+        body {
+            background: #333;
+            color: rgb(170, 36, 36);
+        }
+
+        /* In the above tag the background gets changed to black 333. The "color" always refers to text. The color only gets applied to "centered CSS" because it the things below it specify the text color. The stuff at the bottom always superceeds the stuff above it when referring to CSS*/
+
+        h1 {
+            color: orange;
+            font-size: 27px;
+            background-color: rgb(42, 53, 1);
+        }
+
+        p {
+            font-size: 20px;
+            color: rgb(34, 98, 134);
+        }
+
+        li {
+            font-size: 19px;
+            color: magenta;
+            background-color: #333;
+        }
+
+        a {
+            color: brown;
+            font-size: 20px;
+        }
+
+
+
+        /* An ID (.)will always override a Class(#) if they both select the same thing. In the below example, .subtitle will always override #section-intro. 
+
+        /* FOR EXAMPLE - /* <h2 class="subtitle" id="section-intro">Orbit and rotation</h2>  */
+
+        /* Scrimba recommends not to use IDs but to use Classes. You're lowering the cognitive load and have to think. Should this be an ID or should this be a class. JUST AVOID IDs. It adds complexity where it needs not be. Big companies avoid using IDS. STICK TO USING CLASSES */
+
+        /* <p class="intro">Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System after Mercury. </p>.
+
+        /* What does writing <p class="intro"👆 do. It selects every p tag on a page.*/
+        /* How do i link it? In the css style sheet like such 👇*/
+
+        /* .intro {
+            font-size: 24px;
+        } */
+
+        /* Now everything wrapped in a P tag get a font-size of 24px */
+
+
+
+
+
+        /* # MARGIN VS PADDING
+        
